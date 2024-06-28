@@ -65,7 +65,7 @@ const Descriptions = () => {
               >
                 <path d='M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z' />
               </svg>
-              <p className='text-black text-xs lg:text-lg'>YConducting UX/UI audits to enhance digital products, improve user satisfaction, and drive business success
+              <p className='text-black text-xs lg:text-lg'>Conducting UX/UI audits to enhance digital products, improve user satisfaction, and drive business success
               </p>
             
             </li>
@@ -79,7 +79,7 @@ const Descriptions = () => {
               >
                 <path d='M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z' />
               </svg>
-              <p className='text-black text-xs lg:text-lg'>Building design systems aligned with your brand's unique needs and goals
+              <p className='text-black text-xs lg:text-lg'>Building design systems aligned with your brand&apos;s unique needs and goals
               </p>
             
             </li>
@@ -129,7 +129,7 @@ const Descriptions = () => {
               >
                 <path d='M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z' />
               </svg>
-              <p className='text-black text-xs lg:text-lg'>Delivering exceptional UI/UX design tailored to meet your business's unique needs
+              <p className='text-black text-xs lg:text-lg'>Delivering exceptional UI/UX design tailored to meet your business&apos;s unique needs
 
 
               </p>
@@ -191,7 +191,7 @@ const Descriptions = () => {
               >
                 <path d='M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z' />
               </svg>
-              <p className='text-black text-xs lg:text-lg'>Discovering the transformative power of excellent UI/UX design to boost your company's success
+              <p className='text-black text-xs lg:text-lg'>Discovering the transformative power of excellent UI/UX design to boost your companyDon&apos;ts success
 
               </p>
             
@@ -262,13 +262,13 @@ const Descriptions = () => {
    <div className='flex justify-center items-center '>
         <p className='bg-blue-600 px-5 py-2 rounded-lg text-white shadow-inner '>Transform Your Digital Presence Now..!</p>
       </div>
-      <p className='text-center  text-black font-semibold my-3'>Let's collaborate to bring your ideas to reality in the digital world.
+      <p className='text-center  text-black font-semibold my-3'>Let&apos;s collaborate to bring your ideas to reality in the digital world.
 Contact us at <span className="text-blue-600">info@stackkaroo.com </span>or learn more about our services at
 </p>
 <p className='text-center  text-blue-600 font-semibold my-3'>https://www.stackkaroo.com
 </p>
 
-<p className=' px-5 py-2 rounded-lg text-center text-2xl text-black font-semibold  my-6'>DON'T MISS THE CHANCE !!</p>
+<p className=' px-5 py-2 rounded-lg text-center text-2xl text-black font-semibold  my-6'>DON&apos;T MISS THE CHANCE !!</p>
 
 <div className='flex justify-center items-center '>
         <p className='bg-dark-orange px-5 py-2 rounded-lg text-white text-center shadow-inner font-semibold text-2xl '>Schedule your Consultation Today..!</p>

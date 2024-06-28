@@ -25,27 +25,26 @@ const SubPara = () => {
 
       <div className='flex my-10 mx-20 xl:mx-32'>
         <div className=''>
-          <Image height={300} width={500} src='/Polygon.png' className='h-72 w-96'/>
+          <Image height={300} width={500} src='/Polygon.png' className='h-72 w-96' alt='Polygon'/>
         </div>
         <div className=' mx-2 lg:mx-10'>
           <ul className='space-y-1 text-gray-500 list-inside dark:text-gray-400'>
             {projectData.map((data) => (
-                <div>
-              <li key={data.id} className='flex items-center'>
-                <svg
-                  className=' w-3 md:w-5 lg:w-10 h-3 md:h-5 lg:h-10 me-2 text-green-500 dark:text-green-400 flex-shrink-0'
-                  aria-hidden='true'
-                  xmlns='http://www.w3.org/2000/svg'
-                  fill='currentColor'
-                  viewBox='0 0 20 20'
-                >
-                  <path d='M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z' />
-                </svg>
-                <p className=' text-sm md:text-2xl lg:text-3xl'>{data.title}</p>
-              
-              </li>
+              <div key={data.id}>
+                <li className='flex items-center'>
+                  <svg
+                    className=' w-3 md:w-5 lg:w-10 h-3 md:h-5 lg:h-10 me-2 text-green-500 dark:text-green-400 flex-shrink-0'
+                    aria-hidden='true'
+                    xmlns='http://www.w3.org/2000/svg'
+                    fill='currentColor'
+                    viewBox='0 0 20 20'
+                  >
+                    <path d='M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z' />
+                  </svg>
+                  <p className=' text-sm md:text-2xl lg:text-3xl'>{data.title}</p>
+                </li>
                 <p className='text-sm mb-2 md:text-2xl lg:text-3xl font-semibold mx-2 lg:mx-12 my-3 lg:my-5'>{data.para}</p>
-                </div>
+              </div>
             ))}
           </ul>
         </div>
